@@ -10,7 +10,7 @@ body, h1, form, label, input, textarea, button {
 
 body {
 
-  background-image: url('stockLeaves.jpeg');
+  background-image: url('drawing_leaves.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -32,6 +32,7 @@ body {
   padding: 10px;
   background-color: #ffffffce;
   border-radius: 8px;
+  border-color: #05520b;
 }
 
 h1 {
@@ -51,7 +52,7 @@ input {
   resize: none;
   width: 100%;
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #05520b;
   border-radius: 4px;
 }
 
@@ -61,7 +62,7 @@ textarea {
   width: 100%;
   height: calc(75vh - 275px);
   padding: 8px;
-  border: 1px solid #ffffff;
+  border: 1px solid #05520b;
   border-radius: 4px;
 }
 
