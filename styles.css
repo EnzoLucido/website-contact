@@ -1,38 +1,83 @@
+/* public/styles.css */
 
 
+body, h1, form, label, input, textarea, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 
+* {
+  box-sizing: border-box;
+}
 
-/* styles.css */
 body {
-    font-family: Arial, sans-serif;
-  }
-  
-  form {
-    max-width: 400px;
-    margin: 20px auto;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 8px;
-  }
-  
-  input,
-  textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 16px;
-  }
-  
-  button {
-    background-color: #4caf50;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
+
+  background-image: url('stockLeaves.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+
+  /* public/styles.css */
+
+}
+
+.container {
+  width: 50%; /* Adjust the proportion as needed */
+  height: 75%;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #05520b;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  resize: none;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: none;
+  align-items: bottom;
+  width: 100%;
+  display: flex;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color:#05520b;
+  align-items: bottom;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #05520b;
+}
